@@ -1,12 +1,12 @@
 {
-  "version": "0.1.0-rc.10",
+  "version": "0.1.0-rc.8",
   "releaseDate": "2026-08-20",
   "channel": "stable",
   "minSupportedVersion": "0.1.0-rc.1",
   "dmg": {
-    "arm64": "https://github.com/Braincn/dsh-releases/releases/download/v0.1.0-rc.10/DeepSeek-Harness-0.1.0-rc.10-arm64.dmg",
-    "universal": "https://github.com/Braincn/dsh-releases/releases/download/v0.1.0-rc.10/DeepSeek-Harness-0.1.0-rc.10.dmg"
+    "arm64": "https://github.com/Braincn/dsh-releases/releases/download/v0.1.0-rc.8/DeepSeek-Harness-0.1.0-rc.8-arm64.dmg",
+    "universal": "https://github.com/Braincn/dsh-releases/releases/download/v0.1.0-rc.8/DeepSeek-Harness-0.1.0-rc.8.dmg"
   },
-  "releaseNotes": "rc.10 — Live manifest test 2 (after fixing CDN cache issue)\n\nIf you see this, the GitHub Contents API source works.",
+  "releaseNotes": "rc.8 — Multi-source update & timely polling\n\n• Primary source: self-hosted manifest at Braincn/dsh-releases\n  (raw.githubusercontent.com with cache-bust query)\n• Fallback: GitHub Releases API\n• Background polling: every 4 hours\n• Cache-bypass via timestamp query\n• Per-source error logging\n• ↑ indicator in menu bar\n• ⌘U manual check\n• Dismissed-version tracking",
   "mandatory": false
 }
