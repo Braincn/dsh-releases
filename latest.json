@@ -1,12 +1,12 @@
 {
-  "version": "0.1.0-rc.9",
+  "version": "0.1.0-rc.10",
   "releaseDate": "2026-08-20",
   "channel": "stable",
   "minSupportedVersion": "0.1.0-rc.1",
   "dmg": {
-    "arm64": "https://github.com/Braincn/dsh-releases/releases/download/v0.1.0-rc.9/DeepSeek-Harness-0.1.0-rc.9-arm64.dmg",
-    "universal": "https://github.com/Braincn/dsh-releases/releases/download/v0.1.0-rc.9/DeepSeek-Harness-0.1.0-rc.9.dmg"
+    "arm64": "https://github.com/Braincn/dsh-releases/releases/download/v0.1.0-rc.10/DeepSeek-Harness-0.1.0-rc.10-arm64.dmg",
+    "universal": "https://github.com/Braincn/dsh-releases/releases/download/v0.1.0-rc.10/DeepSeek-Harness-0.1.0-rc.10.dmg"
   },
-  "releaseNotes": "rc.9 — Test update from live manifest\n\nIf you're seeing this, the multi-source update mechanism is working end-to-end:\n  • manifest.json fetched from raw.githubusercontent.com\n  • version compare triggered ↑ in menu bar\n  • NSAlert shows this message",
+  "releaseNotes": "rc.10 — Live manifest test 2 (after fixing CDN cache issue)\n\nIf you see this, the GitHub Contents API source works.",
   "mandatory": false
 }
