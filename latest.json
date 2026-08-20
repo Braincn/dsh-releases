@@ -1,12 +1,12 @@
 {
-  "version": "0.1.0-rc.8",
+  "version": "0.1.0-rc.9",
   "releaseDate": "2026-08-20",
   "channel": "stable",
   "minSupportedVersion": "0.1.0-rc.1",
   "dmg": {
-    "arm64": "https://github.com/Braincn/dsh-releases/releases/download/v0.1.0-rc.8/DeepSeek-Harness-0.1.0-rc.8-arm64.dmg",
-    "universal": "https://github.com/Braincn/dsh-releases/releases/download/v0.1.0-rc.8/DeepSeek-Harness-0.1.0-rc.8.dmg"
+    "arm64": "https://github.com/Braincn/dsh-releases/releases/download/v0.1.0-rc.9/DeepSeek-Harness-0.1.0-rc.9-arm64.dmg",
+    "universal": "https://github.com/Braincn/dsh-releases/releases/download/v0.1.0-rc.9/DeepSeek-Harness-0.1.0-rc.9.dmg"
   },
-  "releaseNotes": "rc.8 — Multi-source update with timely polling.\n\n• Primary: jsDelivr CDN (auto-purged on release)\n• Fallback: GitHub Releases API\n• Polling: every 4 hours via Timer\n• Initial check: 5s after launch\n• Manual check: ⌘U menu\n• ↑ indicator when update available\n• Release script: ./release.sh <version>",
+  "releaseNotes": "rc.9 — Source update tracking\n\n• Tracks upstream deepseek-ai/deepseek-harness tags\n• Menu bar ⟳ indicator when source update available\n• ⌘⇧U manual check for source updates\n• NSAlert: 拉取并重启 / 查看发布页 / 稍后\n• One-click git pull + web service restart\n• Local files (icon, Source/, .app, *.dmg) preserved\n• JS Delivr primary + GitHub Releases API fallback",
   "mandatory": false
 }
