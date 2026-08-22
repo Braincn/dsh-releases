@@ -1,12 +1,12 @@
 {
-  "version": "0.1.0-rc.9",
-  "releaseDate": "2026-08-20",
+  "version": "0.1.1-rc.2",
+  "releaseDate": "2026-08-22",
   "channel": "stable",
   "minSupportedVersion": "0.1.0-rc.1",
   "dmg": {
-    "arm64": "https://github.com/Braincn/dsh-releases/releases/download/v0.1.0-rc.9/DeepSeek-Harness-0.1.0-rc.9-arm64.dmg",
-    "universal": "https://github.com/Braincn/dsh-releases/releases/download/v0.1.0-rc.9/DeepSeek-Harness-0.1.0-rc.9.dmg"
+    "arm64": "https://github.com/Braincn/dsh-releases/releases/download/v0.1.1-rc.2/DeepSeek-Harness-0.1.1-rc.2-arm64.dmg",
+    "universal": "https://github.com/Braincn/dsh-releases/releases/download/v0.1.1-rc.2/DeepSeek-Harness-0.1.1-rc.2.dmg"
   },
-  "releaseNotes": "rc.9 — Source update tracking\n\n• Tracks upstream deepseek-ai/deepseek-harness tags\n• Menu bar ⟳ indicator when source update available\n• ⌘⇧U manual check for source updates\n• NSAlert: 拉取并重启 / 查看发布页 / 稍后\n• One-click git pull + web service restart\n• Local files (icon, Source/, .app, *.dmg) preserved\n• JS Delivr primary + GitHub Releases API fallback",
+  "releaseNotes": "0.1.1-rc.2 — 上游源码同步\n\n• 跟随上游 deepseek-ai/deepseek-harness 0.1.1-rc.2（207 commits）\n• 检测到上游源码更新后，应用内一键拉取并重启\n• 菜单栏 ⟳ 指示有更新可用；⌘⇧U 手动检查\n• 拉取与重启流程保留本地配置、图标与插件",
   "mandatory": false
 }
